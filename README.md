@@ -5,3 +5,7 @@ Create certificate with Powershell and OpenSSL from Windows Certificate Authorit
 Requires PowerShell and OpenSSL.
 
 Basic authentication must be activated on the Certsrv site in IIS.
+
+The certificate must be based on a certificate template.
+
+The user account authenticating must have Read and Enroll permissions for the certificate template.
